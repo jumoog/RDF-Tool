@@ -13,3 +13,5 @@ $b64      = $split[1]
 $bytes    = [Convert]::FromBase64String($b64)
 # write bytes to file
 [IO.File]::WriteAllBytes($scriptPath +"\"+$filename, $bytes)
+# clear clipboard
+[Windows.Forms.Clipboard]::Clear()
