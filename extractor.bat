@@ -1,1 +1,1 @@
-PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& '.\extractor.ps1'"
+PowerShell -NoProfile -STA -ExecutionPolicy Bypass -Command "& '.\extractor.ps1'"

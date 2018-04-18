@@ -1,1 +1,1 @@
-PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& '%~dp0packer.ps1'" ""%*""
+PowerShell -NoProfile -STA -ExecutionPolicy Bypass -Command "& '%~dp0packer.ps1'" ""%*""
